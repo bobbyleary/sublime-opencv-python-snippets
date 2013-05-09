@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${15:retval}, ${16:validPixROI} = cv2.getOptimalNewCameraMatrix(cameraMatrix=${1},distCoeffs=${2},imageSize=${3:(${4},${5})},alpha=${6}${7:,new_camera_matrix=${8}}${9:,new_imag_size=${10:(${11},${12})},validPixROI=${13},centerPrincipalPoint=${14}})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>getOptimalNewCameraMatrix</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

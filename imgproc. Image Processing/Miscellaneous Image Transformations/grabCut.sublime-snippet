@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+cv2.grabCut(img=${1},mask=${2},rect=${3},bgdModel=${4},fgdModel=${5},iterCount=${6},mode=${7})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>grabCut</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

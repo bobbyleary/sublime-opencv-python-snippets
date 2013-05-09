@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${8:dst} = cv2.sepFilter2D(src=${1},ddepth=${2},kernelX=${3},kernelY=${4},anchor=${5},delta=${6},borderType=${7})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sepFilter2D</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

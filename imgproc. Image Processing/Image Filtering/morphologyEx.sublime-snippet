@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${8:dst} = cv2.morphologyEx(src=${1},op=${2},kernel=${3},anchor=${4},iterations=${5},borderType=${6},borderValue=${7})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>morphologyEx</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

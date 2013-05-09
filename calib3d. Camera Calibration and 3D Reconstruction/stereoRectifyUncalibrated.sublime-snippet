@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${9:retval}, ${10:H1}, ${11:H2} = cv2.stereoRectifyUncalibrated(points1=${1},points2=${2},F=${3},imgSize=${4:(${5},${6})}${7:,threshold=${8}})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>stereoRectifyUncalibrated</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

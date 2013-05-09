@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${12:rvec}, ${13:tvec}, ${14:inliers} = cv2.solvePnPRansac(objectPoints=${1},imagePoints=${2},cameraMatrix=${3},distCoeffs=${4}${5:,rvec=${6},tvec=${7},useExtrinsicGuess=true},iterationsCount=${8},reprojectionError=${9},minInliersCount=${10},flags=${11})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>solvePnPRansac</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

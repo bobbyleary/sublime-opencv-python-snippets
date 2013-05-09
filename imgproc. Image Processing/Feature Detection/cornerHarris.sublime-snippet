@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${6:dst} = cv2.cornerHarris(src=${1},blockSize=${2},ksize=${3},k=${4},borderType=${5})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cornerHarris</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

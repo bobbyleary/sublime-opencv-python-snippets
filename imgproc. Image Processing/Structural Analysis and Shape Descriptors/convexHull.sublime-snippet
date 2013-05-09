@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${7:hull} = cv2.convexHull(points=${1}${2:${3:,clockwise=${4}}${5:,returnPoints=${6}}})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>convexHull</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

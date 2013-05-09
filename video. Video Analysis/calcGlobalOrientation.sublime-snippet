@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${6:retval} = cv2.calcGlobalOrientation(orientation=${1},mask=${2},mhi=${3},timestamp=${4},duration=${5})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>calcGlobalOrientation</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

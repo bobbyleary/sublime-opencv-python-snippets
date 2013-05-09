@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+cv2.accumulateSquare(src=${1},dst=${2}${3:,mask=${4}})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>accumulateSquare</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${3:retval} = cv2.getPerspectiveTransform(src=${1},dst=${2})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>getPerspectiveTransform</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${7:fovx}, ${8:fovy}, ${9:focalLength}, ${10:principalPoint}, ${11:aspectRatio} = cv2.calibrationMatrixValues(cameraMatrix=${1},imageSize=${2:(${3},${4})},apertureWidth=${5},apertureHeight=${6})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>calibrationMatrixValue</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

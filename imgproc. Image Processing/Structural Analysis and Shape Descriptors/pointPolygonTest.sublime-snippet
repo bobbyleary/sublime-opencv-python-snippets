@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${5:retval} = cv2.pointPolygonTest(contour=${1},pt=${2}${3:,measureDist=${4}})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pointPolygonTest</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${6:dst} = cv2.dilate(src=${1},kernel=${2},iterations=${3},borderType=${4},borderValue=${5})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dilate</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

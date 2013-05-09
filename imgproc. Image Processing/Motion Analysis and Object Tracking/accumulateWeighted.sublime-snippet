@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+cv2.accumulateWeighted(src=${1},dst=${2},alpha=${3}${4:,mask=${5}})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>accumulateWeighted</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

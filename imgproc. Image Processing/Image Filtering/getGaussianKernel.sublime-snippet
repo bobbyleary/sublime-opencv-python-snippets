@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${4:retval} = cv2.getGaussianKernel(ksize=${1},sigma=${2},ktype=${3})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>getGaussianKernel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

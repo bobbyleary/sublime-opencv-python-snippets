@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${8:dst} = cv2.copyMakeBorder(src=${1},top=${2},bottom=${3},left=${4},right=${5},borderType=${6},value=${7})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>copyMakeBorder</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

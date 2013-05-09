@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${7:dst} = cv2.remap(src=${1},map1=${2},map2=${3},interpolation=${4},borderMode=${5},borderValue=${6})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>remap</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

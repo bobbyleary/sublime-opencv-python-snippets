@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${5:retval}${6:, ${7:mask}} = cv2.findHomography(srcPoints=${1},dstPoints=${2},method=${3},ransacReprojThreshold=${4})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>findHomography</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

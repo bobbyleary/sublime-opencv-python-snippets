@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${5:dst} = cv2.cornerEigenValsAndVecs(src=${1},blockSize=${2},ksize=${3},borderType=${4})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cornerEigenValsAndVecs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

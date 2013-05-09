@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${6:retval}, ${7:mtxR}, ${8:mtxQ}, ${9:Qx}, ${10:Qy}, ${11:Qz} = cv2.RQDecomp3x3(src=${1}${2:,Qx=${3},Qy=${4},Qz=${5}})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rqDecomp3x3</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

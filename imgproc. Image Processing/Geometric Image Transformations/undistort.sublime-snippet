@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${5:dst} = cv2.undistort(src=${1},cameraMatrix=${2},distCoeffs=${3},newCameraMatrix=${4})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>undistort</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

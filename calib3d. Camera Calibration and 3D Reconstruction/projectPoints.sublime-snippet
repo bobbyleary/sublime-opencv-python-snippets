@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${6:imagePoints}${7:, ${8:jacobian}} = cv2.projectPoints(objectPoints=${1},rvec=${2},tvec=${3},cameraMatrix=${4},distCoeffs=${5})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>projectPoints</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

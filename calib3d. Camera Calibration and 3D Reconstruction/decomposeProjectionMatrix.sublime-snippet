@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${2:cameraMatrix}, ${3:rotMatrix}, ${4:transVect}, ${5:rotMatrixX}, ${6:rotMatrixY}, ${7:rotMatrixZ}${8:, ${9:eulerAngles}} = cv2.decomposeProjectionMatrix(projMatrix=${1})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>decomposeProjectionMatrix</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

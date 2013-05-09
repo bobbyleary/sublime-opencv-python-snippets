@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${8:dst} = cv2.resize(src=${1},dsize=${2:(${3},${4})},fx=${5},fy=${6},interpolation=${7})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>resize</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

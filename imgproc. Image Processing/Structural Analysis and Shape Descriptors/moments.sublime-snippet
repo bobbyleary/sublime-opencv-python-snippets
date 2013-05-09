@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${4:retval} = cv2.moments(array=${1},binaryImage=${2})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>moments</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

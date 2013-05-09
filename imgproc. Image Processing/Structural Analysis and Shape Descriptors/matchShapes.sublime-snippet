@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${5:retval} = cv2.matchShapes(contour1=${1},contour2=${2},method=${3},parameter=${4})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>matchShapes</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

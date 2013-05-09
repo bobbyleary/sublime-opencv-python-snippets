@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${7:edges} = cv2.Canny(image=${1},threshold1=${2},threshold2=${3},apertureSize=${4}${5:,L2gradient=${6}})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>canny</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

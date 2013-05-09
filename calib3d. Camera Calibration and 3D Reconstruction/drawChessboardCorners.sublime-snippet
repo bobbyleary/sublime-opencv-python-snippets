@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+cv2.drawChessboardCorners(image=${1},patternSize=${2:(${3},${4})},corners=${5},patternWasFound=${6})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>drawChessboardCorners</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

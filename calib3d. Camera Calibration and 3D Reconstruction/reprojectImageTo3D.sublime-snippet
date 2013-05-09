@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${6:_3dImage} = cv2.reprojectImageTo3D(disparity=${1},Q=${2},handleMissingValues=${3}${4:,ddepth=${5}})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>reprojectImageTo3D</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

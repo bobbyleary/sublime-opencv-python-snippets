@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${9:nextPts}, ${10:status}, ${11:err} = cv2.calcOpticalFlowPyrLK(prevImg=${1},nextImg=${2},prevPts=${3},winSize=${4},maxLevel=${5},criteria=${6},flags=${7},minEigThreshold=${8})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>calcOpticalFlowPyrLK</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

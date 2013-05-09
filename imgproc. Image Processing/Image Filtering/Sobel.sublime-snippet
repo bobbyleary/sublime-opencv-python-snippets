@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${9:dst} = cv2.Sobel(src=${1},ddepth=${2},dx=${3},dy=${4},ksize=${5},scale=${6},delta=${7},borderType=${8})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sobel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${6:patch} = cv2.getRectSubPix(image=${1},patchSize=${2},center={3},${4:patchType=${5}})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>getRectSubPix</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

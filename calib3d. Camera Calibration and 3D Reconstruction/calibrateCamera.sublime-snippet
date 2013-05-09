@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+${11:retval}, ${12:cameraMatrix}, ${13:distCoeffs}, ${14:rvecs}, ${15:tvecs} = cv2.calibrateCamera(
+																	objectPoints=${1},
+																	imagePoints=${2},
+																	imageSize=${3:(${4},${5})}
+																	${6:${7:,flags=${8}}${9:,criteria=${10}}})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>calibrationCamera</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

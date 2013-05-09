@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${7:dst} = cv2.boxFilter(src=${1},ddepth=${2},ksize=${3},anchor=${4},normalize=${5},borderType=${6})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>boxFilter</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

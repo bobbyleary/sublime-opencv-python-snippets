@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${5:line} = cv2.fitLine(points=${1},distType=${2},param=${3},aeps=${4})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fitLine</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

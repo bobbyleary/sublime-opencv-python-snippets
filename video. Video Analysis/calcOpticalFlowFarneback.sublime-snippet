@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${10:flow} = cv2.calcOpticalFlowFarneback(prev=${1},next=${2},pyr_scale=${3},levels=${4},winsize=${5},iterations=${6},poly_n=${7},poly_sigma=${8},flags=${9})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>calcOpticalFlowFarneback</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

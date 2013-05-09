@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${6:dst} = cv2.bilateralFilter(src=${1},d=${2},sigmaColor=${3},sigmaSpace=${4},borderType=${5})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bilateralFilter</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

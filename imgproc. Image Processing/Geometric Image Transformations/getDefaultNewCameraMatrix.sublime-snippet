@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${8:retval} = cv2.getDefaultNewCameraMatrix(cameraMatrix=${1},imgsize=${2:(${3},${4})},centerPrincipalPoint=${5:(${6},${7})})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>getDefaultNewCameraMatrix</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

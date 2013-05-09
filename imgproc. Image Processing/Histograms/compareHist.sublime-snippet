@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${4:retval} = cv2.compareHist(H1=${1},H2=${2},method=${3})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>compareHist</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${9:retval}, ${10:rect} = cv2.floodFill(image=${1},mask=${2},seedPoint=${3},newVal=${4},loDiff=${5},upDiff=${6}${7:,flags=${8}})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>floodFill</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

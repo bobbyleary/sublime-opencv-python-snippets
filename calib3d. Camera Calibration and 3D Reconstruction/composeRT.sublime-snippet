@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${5:rvec3}, ${6:tvec3}${7:, ${8:dr3dr1}, ${9:dr3dt1}, ${10:dr3dr2}, ${11:dr3dt2}, ${12:dt3dr1}, ${13:dt3dt1}, ${14:dt3dr2}, ${15:dt3dt2}} = cv2.composeRT(rvec1=${1},tvec1=${2},rvec2=${3},tvec2=${4})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>composeRT</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

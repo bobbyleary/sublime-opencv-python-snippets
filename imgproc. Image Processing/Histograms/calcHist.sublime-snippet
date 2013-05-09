@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${9:hist} = cv2.calcHist(images=${1},channels=${2}${3:,mask=${4}},histSize=${5},ranges=${6}${7:,accumulate=${8}})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>calcHist</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

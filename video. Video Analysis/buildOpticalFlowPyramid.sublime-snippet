@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${9:retval}, ${10:pyramid} = cv2.buildOpticalFlowPyramid(img=${1},winSize=${2},maxLevel=${3}${4:,withDerivatives=${5}},pyrBorder=${6},derivBorder=${7},tryReuseInputImage=${8})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>buildOpticalFlowPyramid</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

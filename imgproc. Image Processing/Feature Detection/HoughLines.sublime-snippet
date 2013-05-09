@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${10:lines} = cv2.HoughLines(image=${1},rho=${2},theta=${3},threshold=${4}${5:${6:,srn=${7}}${8:,stn=${9}}})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>houghLines</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>
