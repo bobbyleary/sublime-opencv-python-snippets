@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+cv2.putText(image=${1},text=${2},org=${3},fontFace=${4},color=${6})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>puttext</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>
