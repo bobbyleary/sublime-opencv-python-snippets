@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+cv2.line(img=${1}, pt1=${2}, pt2=${3}, color=${4})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>line</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>
