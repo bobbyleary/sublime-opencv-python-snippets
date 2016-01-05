@@ -1,7 +1,7 @@
-Sublime Text 2 OpenCV Python Snippets
+Sublime Text OpenCV Python Snippets
 =====================================
 
-OpenCV (2.4.5) Python function snippets for Sublime Text 2.
+OpenCV (2.4.5) Python function snippets for Sublime Text 2/3.
 
 You can find the OpenCV function information at the [documentation site](http://docs.opencv.org/index.html)
 
