@@ -1,10 +1,9 @@
 <snippet>
 	<content><![CDATA[
-${6:dst} = erode(src=${1}, kernel=${2}, anchor=${3}, iterations=${4}, borderType=${5}, borderValue=${6})
-
+dst=${4} = cv2.bitwise_or(src1=${1}, src2=${2}, mask=${3})
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>erode</tabTrigger>
+	<tabTrigger>bitwise_or</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.python</scope>
 </snippet>
